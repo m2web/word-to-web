@@ -9,13 +9,13 @@ do
 	#replace '_' with space in file name for post title
 	theTitle=${file//_/ }
 	
-    # Prepend front-matter to files
-    TEMPLATE="---
-    title: \"$theTitle\"
-    date: $theDate
-    draft: true
-    ---
-    "
+# Prepend front-matter to files
+TEMPLATE="---
+title: \"$theTitle\"
+date: $theDate
+draft: true
+---
+"
 
     echo "$TEMPLATE" | cat - "$file" > temp && mv temp "$file"
 done
