@@ -1,6 +1,7 @@
 for file in *.md
 do
-    echo $file
-    
-    mv "$file" "${file// /_}"
+    # echo $file
+    if [[ $string = *" "* ]]; then #the filename contains a space
+        mv "$file" "${file// /_}"
+    fi
 done
