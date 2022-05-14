@@ -5,13 +5,13 @@
 1. You have a Word document that you want to convert to a web page.
 2. You have [Hugo](https://gohugo.io/) installed on your computer.
 3. You have [Pandoc](https://pandoc.org/) installed on your computer.
-4. You have created a new Hugo site and applied a [Hugo Theme](https://themes.gohugo.io/)
+4. You have existing Hugo site.
 
 # How to do it
 
 1. Copy/move your Word document(s) to a temporary folder.
-2. Copy the convertWordDocToMarkdown.sh, cleanMarkdown.sh, prepend-frontmatter.sh, and renameMarkdownFilesWithSpaces.sh scripts to the same folder.
-3. Run the convertWordDocToMarkdown.sh, cleanMarkdown.sh, prepend-frontmatter.sh, and renameMarkdownFilesWithSpaces.sh scripts.
+2. Copy the `convertWordDocToMarkdown.sh`, `cleanMarkdown.sh`, `prepend-frontmatter.sh`, `renameMarkdownFilesWithSpaces.sh`, and `main.sh` scripts to the same folder.
+3. Run the `main.sh` script.
 4. Update the frontmatter in the markdown file(s) to your desired content.
 5. Copy the markdown file(s) from the temporary folder to your Hugo site's content folder.
 6. Copy the images folder from the temporary folder to your Hugo site's content folder.
