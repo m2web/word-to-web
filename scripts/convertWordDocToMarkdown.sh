@@ -14,7 +14,7 @@ for file in *; do
     if [ "${file: -5}" == ".docx" ]
     then
         # use pandoc to convert the doc to markdown
-        echo $file
+        # echo $file
         pandoc $file -t markdown --output=$file.md --extract-media=./images/$file
     fi
 done;
