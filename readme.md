@@ -3,9 +3,10 @@
 # Prerequisites
 
 1. You have a Word document that you want to convert to a web page.
-2. You have [Hugo](https://gohugo.io/) installed on your computer.
-3. You have [Pandoc](https://pandoc.org/) installed on your computer.
-4. You have existing Hugo site.
+2. You have a bash shell. On Windows, you can use [Git Bash](https://git-scm.com/downloads) or Windows Subsystem for Linux (WSL).
+3. You have [Hugo](https://gohugo.io/) installed on your computer.
+4. You have [Pandoc](https://pandoc.org/) installed on your computer.
+5. You have existing Hugo site.
 
 # How to do it
 
