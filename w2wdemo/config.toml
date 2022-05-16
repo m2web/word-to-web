@@ -2,3 +2,7 @@ baseURL = 'https://w2wdemo.netlify.app/'
 languageCode = 'en-us'
 title = 'Word to Web Demo'
 theme = "ananke"
+
+[params]
+  author = "Mark McFadden"
+  favicon = "favicon.ico"
