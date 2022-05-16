@@ -19,5 +19,4 @@
 7. Within the markdown files, update the path to the images folder. For example, if the images folder is `images`, then update the path to `/images`.
 8. Issue a `hugo server -D` command to start the Hugo server.
 9. Open your browser and navigate to your Hugo site's URL to test the new content.
-10. After testing, issue a `hugo` command to build your Hugo site's static files.
-11. Deploy your Hugo site to the hosting service/CDN of your choice.
+10. After testing, commit and push your code to your remote repo (GitHub, GitLab, Bitbucket, etc.) to invoke a CI/CD pipeline to deploy your Hugo site to the hosting service/CDN of your choice.
