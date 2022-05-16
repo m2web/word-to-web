@@ -1,4 +1,4 @@
-for file in *.md
+for file in *;
 do
     dos2unix $file
 done
