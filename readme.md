@@ -1,5 +1,7 @@
 # From Word to the Web in 5 Minutes or Less
 
+![Readme Banner](/readme_images/WordToWebReadmeBanner.png)
+
 ## Prerequisites
 
 1. You have a Word document or documents that you want to convert to a web page(s).
