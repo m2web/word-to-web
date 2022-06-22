@@ -13,7 +13,7 @@ do
 TEMPLATE="---
 title: \"$theTitle\"
 date: $theDate
-draft: true
+draft: false
 ---
 "
 
