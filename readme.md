@@ -16,9 +16,18 @@
 2. Copy the `convertWordDocToMarkdown.sh`, `cleanMarkdown.sh`, `prepend-frontmatter.sh`, `renameMarkdownFilesWithSpaces.sh`, and `main.sh` scripts to the same folder.
 3. Run the `main.sh` script.
 4. Update the frontmatter in the markdown file(s) to your desired content. For example, change the draft status to `false` and the date to today's date.
-5. Copy the markdown file(s) from the temporary folder to your Hugo site's `content` folder.
+5. Copy the markdown file(s) from the temporary folder to your Hugo site's `content\posts` folder.
+
+```bash
+cp *.md ../w2wdemo/content/posts/
+```
+
 6. Copy the images folder from the temporary folder to your Hugo site's `static` folder.
-7. Within the markdown files, update the path to the images folder. For example, if the images folder is `images`, then update the path to `/images`.
-8. Issue a `hugo server -D` command to start the Hugo server.
-9. Open your browser and navigate to your Hugo site's URL to test the new content.
-10. After testing, commit and push your code to your remote repo (GitHub, GitLab, Bitbucket, etc.) to invoke a CI/CD pipeline to deploy your Hugo site to the hosting service/CDN of your choice.
+
+```bash
+cp images/ ../w2wdemo/static/ -r
+```
+
+7. Issue a `hugo serve` command to start the Hugo server.
+8. Open your browser and navigate to your Hugo site's URL to test the new content.
+9. After testing, commit and push your code to your remote repo (GitHub, GitLab, Bitbucket, etc.) to invoke a CI/CD pipeline to deploy your Hugo site to the hosting service/CDN of your choice.
