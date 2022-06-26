@@ -11,11 +11,14 @@ for file in *; do
 done
 
 for file in *; do
-    if [ "${file: -5}" == ".docx" ]
+    if [ "${file: -5}" == ".docx" ] #iterate and get each Word document file in the directory
     then
         # use pandoc to convert the doc to markdown
         # echo $file
         pandoc $file -t markdown --output=$file.md --extract-media=./images/$file
+        # -t markdown sets the output format to markdown.
+        # --output=$file.md is used to create the markdown file name to be the same as the Word document name.
+        # --extract-media=./images/$file creates image folders for each markdown file created and the links to the images in the markdown document.</p>
     fi
 done;
 
