@@ -28,6 +28,6 @@ cp *.md ../w2wdemo/content/posts/
 cp images/ ../w2wdemo/static/ -r
 ```
 
-7. Issue a `hugo serve` command in your hugo site folder to start the Hugo server.
+7. Issue a `hugo serve` command in your hugo site folder to start the Hugo server. Note that from within this repo when testing, the image path in the markdown will need to be changed from `/images` to `./images` for the images to be visible.
 8. Open your browser and navigate to your Hugo site's URL to test the new content. Typically, `http://localhost:1313/`.
 9. After testing, commit and push your code to your remote repo (GitHub, GitLab, Bitbucket, etc.) to invoke a CI/CD pipeline to deploy your Hugo site to the hosting service/CDN of your choice.
