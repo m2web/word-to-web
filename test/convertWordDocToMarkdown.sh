@@ -17,7 +17,7 @@ for file in *; do
         # echo $file
         pandoc $file -t markdown --output=$file.md --extract-media=./images/$file
         # -t markdown sets the output format to markdown.
-        # --output=$file.md is used to create the markdown file name to be the same as the Word document name.
+        # --output=$file.md is used to create the markdown file with the same name as the Word document.
         # --extract-media=./images/$file creates image folders for each markdown file created and the links to the images in the markdown document.</p>
     fi
 done;
