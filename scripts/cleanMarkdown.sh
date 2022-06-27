@@ -7,6 +7,7 @@ for file in *; do
         sed -i 's/(.\/images/(\/images/' $file
         
         # remove the image width and height settings created by pandoc
+        # TODO: script to set image size with the HTML <img> tag.
         sed -i 's/{width=.*//' $file
         sed -i 's/height=.*//' $file
 
