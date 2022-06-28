@@ -8,7 +8,7 @@
 2. You have a bash shell. On Windows, you can use [Git Bash](https://git-scm.com/downloads) or [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/about)
 3. You have [Hugo](https://gohugo.io/) installed on your computer.
 4. You have [Pandoc](https://pandoc.org/) installed on your computer.
-5. You have existing Hugo site.
+5. You have existing Hugo based website.
 
 ## How to do it
 
