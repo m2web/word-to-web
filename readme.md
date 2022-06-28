@@ -1,4 +1,4 @@
-# From Word to the Web in 5 Minutes or Less
+# Word to Web with Hugo in 5 Minutes
 
 ![Readme Banner](/readme_images/WordToWebReadmeBanner.png)
 
